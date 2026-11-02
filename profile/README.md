@@ -17,7 +17,7 @@ The **FeatherWorks Launcher** installs, updates and opens every app in the suite
   &nbsp;·&nbsp;
   <a href="https://github.com/feather-works/featherlauncher/releases/latest/download/featherlauncher-linux-x86_64.tar.gz"><b>⬇ Linux (.tar.gz)</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/feather-works/featherlauncher/releases/latest/download/featherlauncher-windows-x64.exe"><b>⬇ Windows (.exe)</b></a>
+  <a href="https://github.com/feather-works/featherlauncher/releases/latest/download/featherlauncher-windows-x64-instalador.exe"><b>⬇ Windows (installer)</b></a>
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@ The **FeatherWorks Launcher** installs, updates and opens every app in the suite
   </a>
 </p>
 
-For the `.tar.gz`, extract it and run `./instalar.sh`; the Windows `.exe` is portable, just open it.
+For the `.tar.gz`, extract it and run `./instalar.sh`. On Windows the installer puts the suite in `C:\Program Files\FeatherWorks` (the launcher in `FeatherWorks\Launcher`, each app in its own folder) and asks for administrator once; a [portable `.exe`](https://github.com/feather-works/featherlauncher/releases/latest/download/featherlauncher-windows-x64.exe) is also available.
 
 ## Private by default
 
@@ -39,9 +39,9 @@ No account, no login, no telemetry. Everything runs on your machine and none of 
 | <img src="imagens/feathersheet.svg" width="32"> | [**FeatherSheet**](https://github.com/feather-works/feathersheet) | Spreadsheets: formulas in Portuguese and English, millions of rows, charts, pivot tables, OpenQuery, `.xlsx` and Excel VBA macros converted to JavaScript (116 of the 117 applicable VBA functions, Collection and Dictionary); 4 million rows open in about 1 GB | v0.2.6 | [Linux, Windows and macOS](https://github.com/feather-works/feathersheet/releases/latest) |
 | <img src="imagens/featherslide.svg" width="32"> | [**FeatherSlide**](https://github.com/feather-works/featherslide) | Presentations: opens `.pptx` and `.odp`, exports PDF | v0.1.0 | [Linux and Windows](https://github.com/feather-works/featherslide/releases/latest) |
 | <img src="imagens/feathercode.svg" width="32"> | [**FeatherCode**](https://github.com/feather-works/feathercode) | Code editor with Claude Code in the side panel | v0.0.2 | [Linux and Windows](https://github.com/feather-works/feathercode/releases/latest) |
-| <img src="imagens/feathernotes.svg" width="32"> | [**FeatherNotes**](https://github.com/feather-works/feathernotes) | Notepad and desktop sticky notes: tabs that come back, Markdown, 30+ encodings | v0.1.9 | [Linux and Windows](https://github.com/feather-works/feathernotes/releases/latest) |
+| <img src="imagens/feathernotes.svg" width="32"> | [**FeatherNotes**](https://github.com/feather-works/feathernotes) | Notepad and desktop sticky notes: tabs that come back, Markdown, 30+ encodings | v0.1.13 | [Linux and Windows](https://github.com/feather-works/feathernotes/releases/latest) |
 | <img src="imagens/featherdocs.svg" width="32"> | [**FeatherDocs**](https://github.com/feather-works/featherdocs) | Documents: DOCX, LaTeX and Markdown | in development | — |
-| <img src="imagens/featherpdf.svg" width="32"> | **FeatherPDF** | Reading and organizing PDFs: annotations, forms, OCR | in development | — |
+| <img src="imagens/featherpdf.svg" width="32"> | [**FeatherPDF**](https://github.com/feather-works/featherpdf) | Reading and organizing PDFs: annotations, forms, OCR | v0.1.1 | [Linux and Windows](https://github.com/feather-works/featherpdf/releases/latest) |
 | <img src="imagens/feathercad.svg" width="32"> | **FeatherCAD** | 2D and 3D technical drawing | in development | — |
 
 Each app is an independent product with its own repository, version and installer. If you prefer to install without the launcher, each repository's releases page has the packages (`.deb`, `.tar.gz`, `.exe`) and the `SHA256SUMS`.
