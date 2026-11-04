@@ -74,9 +74,13 @@ SQL editor, table tree (server › databases › tables) and result grid. Tested
 Since then: query tabs, name completion, Stop, warning on DELETE/UPDATE without WHERE, sort and filter
 the grid, query history, format SQL, EXPLAIN, reconnect on a dropped connection.
 
-- [ ] Test against real MySQL, MongoDB Atlas, Datasphere and TDV servers (and Stop / grid editing on a real PostgreSQL).
+- [ ] Test against real MySQL, MongoDB Atlas, Datasphere and TDV servers (Stop, grid editing, read-only and indexes/keys passed on a real PostgreSQL).
 - [x] SSL options: verify or encrypt only, company CA and client certificate.
 - [x] Edit data in the grid and see table DDL.
+- [x] From the DBeaver survey: manual commit, read-only and production connections, SSH tunnel, new/delete rows,
+  +1000 rows, value panel, copy as INSERT/JSON, indexes/foreign keys/triggers, drop table, import CSV,
+  `:name` parameters, comment line, expand `*`, ER diagram and active sessions.
+- [ ] Test the SSH tunnel against a real server (only the error path is tested).
 - [ ] Native SQL Server without C: `tiberius` pulls `aws-lc` (C, cmake) through `tokio-rustls`; today SQL Server goes through ODBC.
 - [ ] Bring the FeatherDB brand into `feather-ui` (`marca::Produto`); today the app recolors the feather itself.
 - [ ] First release (packages for Linux and Windows).
