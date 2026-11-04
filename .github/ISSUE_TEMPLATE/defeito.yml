@@ -1,0 +1,44 @@
+name: Defeito / Bug
+description: Algo não funciona como deveria · Something doesn't work as it should
+labels: [bug]
+body:
+  - type: textarea
+    id: passos
+    attributes:
+      label: O que você fez · What you did
+      description: Os passos para o defeito aparecer · Steps to make it happen.
+      placeholder: "1. Abri o arquivo… / Opened the file…\n2. Cliquei em… / Clicked…\n3. …"
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que esperava e o que aconteceu · What you expected and what happened
+    validations:
+      required: true
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do app · App version
+      description: Ajuda → Sobre, ou Configurações → Sobre · Help → About, or Settings → About.
+      placeholder: "0.2.8"
+    validations:
+      required: true
+  - type: dropdown
+    id: sistema
+    attributes:
+      label: Sistema · System
+      options: [Windows, Linux (.deb), Linux (.tar.gz), macOS, Compilado do código / Built from source]
+    validations:
+      required: true
+  - type: dropdown
+    id: instalacao
+    attributes:
+      label: Instalado por · Installed with
+      options: [FeatherWorks Launcher, Instalador do app / App installer, Outro / Other]
+  - type: textarea
+    id: console
+    attributes:
+      label: Console (F12) ou mensagem de erro · Console (F12) or error message
+      description: Não anexe arquivos com dados pessoais · Don't attach files with personal data.
+      render: text

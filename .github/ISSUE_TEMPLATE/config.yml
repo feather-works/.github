@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Falha de segurança · Security vulnerability
+    url: https://github.com/feather-works/.github/blob/main/SECURITY.md
+    about: Não abra issue pública; relate em privado · Don't open a public issue; report privately.
+  - name: Roadmap
+    url: https://github.com/feather-works/.github/blob/main/ROADMAP.md
+    about: O que já está planejado para cada app · What is already planned for each app.

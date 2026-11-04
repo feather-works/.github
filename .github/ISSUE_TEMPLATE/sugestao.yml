@@ -1,0 +1,19 @@
+name: Sugestão / Feature request
+description: Uma função, comando ou melhoria nova · A new function, command or improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: pedido
+    attributes:
+      label: O que você gostaria · What you would like
+    validations:
+      required: true
+  - type: textarea
+    id: uso
+    attributes:
+      label: Para que você usaria · What you would use it for
+  - type: textarea
+    id: referencia
+    attributes:
+      label: Como funciona em outro programa · How it works elsewhere
+      description: Se já existe no Office, Google ou LibreOffice, conte como é lá · If it exists in Office, Google or LibreOffice, tell us how.
