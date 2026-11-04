@@ -66,10 +66,11 @@ Still very raw.
 ## <img src="profile/imagens/featherdb.svg" width="24"> FeatherDB 🔴
 
 Lightweight database client (the idea of DBeaver, without the weight). Started on 2026-11-04:
-PostgreSQL, MySQL/MariaDB, SQLite and any database through ODBC (Datasphere, TDV…), SQL editor,
-table tree and result grid.
+PostgreSQL, MySQL/MariaDB, SQLite, MongoDB/Atlas and any database through ODBC (Datasphere, TDV…),
+SQL editor, table tree (server › databases › tables) and result grid. Tested against a real PostgreSQL.
 
-- [ ] Test against real PostgreSQL, MySQL, Datasphere and TDV servers.
+- [ ] Test against real MySQL, MongoDB Atlas, Datasphere and TDV servers.
+- [ ] SSL options: mode (require / verify CA / verify full), CA certificate and client certificate.
 - [ ] Edit data in the grid and see table DDL.
 - [ ] Bring the FeatherDB brand into `feather-ui` (`marca::Produto`); today the app recolors the feather itself.
 - [ ] First release (packages for Linux and Windows).
