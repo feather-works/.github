@@ -36,11 +36,11 @@ No account, no login, no telemetry. Everything runs on your machine and none of 
 
 | | App | What for | Status | Standalone install |
 |---|---|---|---|---|
-| <img src="imagens/feathersheet.svg" width="56"> | [**FeatherSheet**](https://github.com/feather-works/feathersheet) | Spreadsheets: formulas in Portuguese and English, millions of rows, charts, pivot tables, OpenQuery, `.xlsx` and Excel VBA macros converted to JavaScript (116 of the 117 applicable VBA functions, Collection and Dictionary); 4 million rows open in about 1 GB | v0.2.7 | [Linux, Windows and macOS](https://github.com/feather-works/feathersheet/releases/latest) |
+| <img src="imagens/feathersheet.svg" width="56"> | [**FeatherSheet**](https://github.com/feather-works/feathersheet) | Spreadsheets: formulas in Portuguese and English, millions of rows, charts, pivot tables, OpenQuery, `.xlsx` and Excel VBA macros converted to JavaScript (116 of the 117 applicable VBA functions, Collection and Dictionary); 4 million rows open in about 1 GB | v0.2.8 | [Linux, Windows and macOS](https://github.com/feather-works/feathersheet/releases/latest) |
 | <img src="imagens/featherslide.svg" width="56"> | [**FeatherSlide**](https://github.com/feather-works/featherslide) | Presentations: opens `.pptx` and `.odp`, exports PDF | v0.1.1 | [Linux and Windows](https://github.com/feather-works/featherslide/releases/latest) |
 | <img src="imagens/feathercode.svg" width="56"> | [**FeatherCode**](https://github.com/feather-works/feathercode) | Code editor with Claude Code in the side panel | v0.0.6 | [Linux and Windows](https://github.com/feather-works/feathercode/releases/latest) |
-| <img src="imagens/feathernotes.svg" width="56"> | [**FeatherNotes**](https://github.com/feather-works/feathernotes) | Notepad and desktop sticky notes: tabs that come back, Markdown, 30+ encodings | v0.1.14 | [Linux and Windows](https://github.com/feather-works/feathernotes/releases/latest) |
-| <img src="imagens/featherdocs.svg" width="56"> | [**FeatherDocs**](https://github.com/feather-works/featherdocs) | Documents: DOCX, LaTeX and Markdown | v0.1.6 | [Linux and Windows](https://github.com/feather-works/featherdocs/releases/latest) |
+| <img src="imagens/feathernotes.svg" width="56"> | [**FeatherNotes**](https://github.com/feather-works/feathernotes) | Notepad and desktop sticky notes: tabs that come back, Markdown, 30+ encodings | v0.1.15 | [Linux and Windows](https://github.com/feather-works/feathernotes/releases/latest) |
+| <img src="imagens/featherdocs.svg" width="56"> | [**FeatherDocs**](https://github.com/feather-works/featherdocs) | Documents: DOCX, LaTeX and Markdown | v0.1.7 | [Linux and Windows](https://github.com/feather-works/featherdocs/releases/latest) |
 | <img src="imagens/featherpdf.svg" width="56"> | [**FeatherPDF**](https://github.com/feather-works/featherpdf) | Reading and organizing PDFs: annotations, forms, OCR | v0.1.4 | [Linux and Windows](https://github.com/feather-works/featherpdf/releases/latest) |
 | <img src="imagens/feathercad.svg" width="56"> | **FeatherCAD** | 2D and 3D technical drawing | in development | — |
 
@@ -152,6 +152,8 @@ arquivo.f··z
 | [feather-io](https://github.com/feather-works/feather-io) | Files, tables, images and macros: formats and conversion |
 
 Which app uses which piece, and at which version: [TECHNOLOGY.md](../TECHNOLOGY.md).
+
+What comes next for each app: [ROADMAP.md](../ROADMAP.md).
 
 ## Status
 

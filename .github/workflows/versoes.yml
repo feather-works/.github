@@ -1,0 +1,24 @@
+name: versoes
+# Mantém as versões do README iguais às releases publicadas, sem depender de lembrar.
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  versoes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: scripts/atualizar-versoes.sh
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - run: |
+          git diff --quiet && exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -am 'versoes: README com as releases publicadas'
+          git push
