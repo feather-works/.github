@@ -9,67 +9,68 @@ Status: ✅ in good shape · 🟡 usable, needs work · 🔴 early stage
 ## Every app
 
 - [ ] **Ribbon icons**: redraw the ones that still look rough, so every tab
-      has a clear and consistent set (in `feather-ui`, shared by all apps).
+      has a clear and consistent set (in `feather-ui`, shared by all apps). [#1](https://github.com/feather-works/feather-ui/issues/1)
 
 ## <img src="profile/imagens/feathersheet.svg" width="24"> FeatherSheet ✅
 
 The most complete app. Formulas are in good shape.
 
 - [ ] More languages (interface, function names and help beyond Portuguese
-      and English).
-- [ ] Faster formula recalculation.
-- [ ] Better OpenQuery.
-- [ ] Test many more macros (real VBA files converted to JavaScript).
-- [ ] Look for other integrations.
+      and English). [#141](https://github.com/feather-works/feathersheet/issues/141)
+- [ ] Faster formula recalculation. [#142](https://github.com/feather-works/feathersheet/issues/142)
+- [ ] Better OpenQuery. [#94](https://github.com/feather-works/feathersheet/issues/94), [#93](https://github.com/feather-works/feathersheet/issues/93), [#70](https://github.com/feather-works/feathersheet/issues/70)
+- [ ] Test many more macros (real VBA files converted to JavaScript). [#143](https://github.com/feather-works/feathersheet/issues/143)
+- [ ] Look for other integrations. [#144](https://github.com/feather-works/feathersheet/issues/144)
 
 Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathersheet/blob/main/ROADMAP.md).
 
 ## <img src="profile/imagens/featherdocs.svg" width="24"> FeatherDocs 🟡
 
-- [ ] Usability across the editor.
-- [ ] A better menu.
-- [ ] Better LaTeX editing.
-- [ ] Better document (`.docx`) support.
-- [ ] Filling in forms.
-- [ ] Better MCP integration.
-- [ ] Better charts and tables, and open them in FeatherSheet to edit.
+- [ ] Usability across the editor. [#1](https://github.com/feather-works/featherdocs/issues/1)
+- [ ] A better menu. [#2](https://github.com/feather-works/featherdocs/issues/2)
+- [ ] Better LaTeX editing. [#3](https://github.com/feather-works/featherdocs/issues/3)
+- [ ] Better document (`.docx`) support. [#4](https://github.com/feather-works/featherdocs/issues/4)
+- [ ] Filling in forms. [#5](https://github.com/feather-works/featherdocs/issues/5)
+- [ ] Better MCP integration. [#6](https://github.com/feather-works/featherdocs/issues/6)
+- [ ] Better charts and tables, and open them in FeatherSheet to edit. [#7](https://github.com/feather-works/featherdocs/issues/7)
+- [ ] Complete the en-US and es-ES translations (interface and F1 help). [#8](https://github.com/feather-works/featherdocs/issues/8)
 
 ## <img src="profile/imagens/featherslide.svg" width="24"> FeatherSlide 🟡
 
 - [ ] Fix layout drift: elements move slightly when an existing presentation
-      is opened.
-- [ ] Usability across the editor.
-- [ ] Usability of the MCP integration.
-- [ ] More templates.
-- [ ] More animations.
+      is opened. [#1](https://github.com/feather-works/featherslide/issues/1)
+- [ ] Usability across the editor. [#2](https://github.com/feather-works/featherslide/issues/2)
+- [ ] Usability of the MCP integration. [#3](https://github.com/feather-works/featherslide/issues/3)
+- [ ] More templates. [#4](https://github.com/feather-works/featherslide/issues/4)
+- [ ] More animations. [#5](https://github.com/feather-works/featherslide/issues/5)
 
 ## <img src="profile/imagens/feathernotes.svg" width="24"> FeatherNotes ✅
 
 Usability is fine.
 
-- [ ] Optimize the remaining slow parts (most of it is likely in pelicano).
+- [ ] Optimize the remaining slow parts (most of it is likely in pelicano). [#4](https://github.com/feather-works/feathernotes/issues/4)
 
 ## <img src="profile/imagens/feathercode.svg" width="24"> FeatherCode 🔴
 
 Still very raw.
 
-- [ ] A better interface.
-- [ ] A way to create apps and plugins from inside the editor.
+- [ ] A better interface. [#1](https://github.com/feather-works/feathercode/issues/1)
+- [ ] A way to create apps and plugins from inside the editor. [#2](https://github.com/feather-works/feathercode/issues/2)
 
 ## <img src="profile/imagens/featherpdf.svg" width="24"> FeatherPDF 🟡
 
-- [ ] Usability.
-- [ ] Use less RAM (find a better way to load and keep pages).
-- [ ] Other ways to make common tasks faster.
+- [ ] Usability. [#1](https://github.com/feather-works/featherpdf/issues/1)
+- [ ] Use less RAM (find a better way to load and keep pages). [#2](https://github.com/feather-works/featherpdf/issues/2)
+- [ ] Other ways to make common tasks faster. [#3](https://github.com/feather-works/featherpdf/issues/3)
 
 ## Shared libraries
 
 ### [pelicano](https://github.com/feather-works/pelicano) (UI toolkit)
 
-- [ ] Finish the open items.
-- [ ] Make building screens much faster and simpler.
-- [ ] A way to validate screens (check layout and look automatically).
-- [ ] 3D support.
+- [ ] Finish the open items. [#3](https://github.com/feather-works/pelicano/issues/3)
+- [ ] Make building screens much faster and simpler. [#4](https://github.com/feather-works/pelicano/issues/4)
+- [ ] A way to validate screens (check layout and look automatically). [#5](https://github.com/feather-works/pelicano/issues/5)
+- [ ] 3D support. [#6](https://github.com/feather-works/pelicano/issues/6)
 
 ### [falcao](https://github.com/feather-works/falcao) (JavaScript engine)
 
@@ -78,7 +79,7 @@ Goal: the best JavaScript interpreter. It runs code from macros, so
 machine.
 
 - [ ] Security: actively hunt for flaws (sandbox escapes, file and process
-      access, memory bugs, runaway scripts) with fuzzing and hostile scripts.
+      access, memory bugs, runaway scripts) with fuzzing and hostile scripts. [#1](https://github.com/feather-works/falcao/issues/1)
 - [ ] Implement N3, the optimizing JIT
-      ([ARQUITETURA.md](https://github.com/feather-works/falcao/blob/main/ARQUITETURA.md), section 11).
-- [ ] More optimizations across the engine.
+      ([ARQUITETURA.md](https://github.com/feather-works/falcao/blob/main/ARQUITETURA.md), section 11). [#2](https://github.com/feather-works/falcao/issues/2)
+- [ ] More optimizations across the engine. [#3](https://github.com/feather-works/falcao/issues/3)
