@@ -15,6 +15,7 @@ dependency, update its row here.
 | FeatherCode | v0.0.2 | pelicano | v0.1.9 | v0.3.0 |
 | FeatherNotes | v0.1.9 | pelicano | v0.1.15 | — |
 | FeatherWorks Launcher | v0.1.8 | pelicano | v0.1.16 | — |
+| FeatherDB | v0.1.0 | pelicano | v0.1.27 | v0.3.13 |
 
 `feather-ui` has two lines in the same repository: **v0.2.x = Iced 0.13** and
 **v0.3.x = pelicano** (local copy in `feather-ui-pelicano/`). New code goes to

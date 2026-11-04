@@ -63,6 +63,17 @@ Still very raw.
 - [ ] Use less RAM (find a better way to load and keep pages). [#2](https://github.com/feather-works/featherpdf/issues/2)
 - [ ] Other ways to make common tasks faster. [#3](https://github.com/feather-works/featherpdf/issues/3)
 
+## <img src="profile/imagens/featherdb.svg" width="24"> FeatherDB 🔴
+
+Lightweight database client (the idea of DBeaver, without the weight). Started on 2026-11-04:
+PostgreSQL, MySQL/MariaDB, SQLite and any database through ODBC (Datasphere, TDV…), SQL editor,
+table tree and result grid.
+
+- [ ] Test against real PostgreSQL, MySQL, Datasphere and TDV servers.
+- [ ] Edit data in the grid and see table DDL.
+- [ ] Bring the FeatherDB brand into `feather-ui` (`marca::Produto`); today the app recolors the feather itself.
+- [ ] First release (packages for Linux and Windows).
+
 ## Shared libraries
 
 ### [pelicano](https://github.com/feather-works/pelicano) (UI toolkit)
