@@ -71,10 +71,13 @@ Still very raw.
 Lightweight database client (the idea of DBeaver, without the weight). Started on 2026-11-04:
 PostgreSQL, MySQL/MariaDB, SQLite, MongoDB/Atlas and any database through ODBC (Datasphere, TDV…),
 SQL editor, table tree (server › databases › tables) and result grid. Tested against a real PostgreSQL.
+Since then: query tabs, name completion, Stop, warning on DELETE/UPDATE without WHERE, sort and filter
+the grid, query history, format SQL, EXPLAIN, reconnect on a dropped connection.
 
-- [ ] Test against real MySQL, MongoDB Atlas, Datasphere and TDV servers.
-- [ ] SSL options: mode (require / verify CA / verify full), CA certificate and client certificate.
-- [ ] Edit data in the grid and see table DDL.
+- [ ] Test against real MySQL, MongoDB Atlas, Datasphere and TDV servers (and Stop / grid editing on a real PostgreSQL).
+- [x] SSL options: verify or encrypt only, company CA and client certificate.
+- [x] Edit data in the grid and see table DDL.
+- [ ] Native SQL Server without C: `tiberius` pulls `aws-lc` (C, cmake) through `tokio-rustls`; today SQL Server goes through ODBC.
 - [ ] Bring the FeatherDB brand into `feather-ui` (`marca::Produto`); today the app recolors the feather itself.
 - [ ] First release (packages for Linux and Windows).
 
