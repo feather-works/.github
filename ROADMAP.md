@@ -21,6 +21,9 @@ The most complete app. Formulas are in good shape.
 - [ ] Better OpenQuery. [#94](https://github.com/feather-works/feathersheet/issues/94), [#93](https://github.com/feather-works/feathersheet/issues/93), [#70](https://github.com/feather-works/feathersheet/issues/70)
 - [ ] Test many more macros (real VBA files converted to JavaScript). [#143](https://github.com/feather-works/feathersheet/issues/143)
 - [ ] Look for other integrations. [#144](https://github.com/feather-works/feathersheet/issues/144)
+- [x] Sparklines in cells (v0.2.9).
+- [ ] Slicers and timelines for pivot tables. [#145](https://github.com/feather-works/feathersheet/issues/145)
+- [ ] Community add-ons. [#146](https://github.com/feather-works/feathersheet/issues/146)
 
 Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathersheet/blob/main/ROADMAP.md).
 
