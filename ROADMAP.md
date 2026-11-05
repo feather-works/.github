@@ -59,6 +59,7 @@ Still very raw.
 
 - [x] Editor basics: find and replace (Ctrl+F, Ctrl+H), go to line (Ctrl+G), ask before closing unsaved tabs, a warning when the agent changes a file you are still editing, right-click menus on files and tabs, new file and folder, file-type icons, Markdown preview, autosave, `file:line` links in the agent's replies, Commit and Push in one click.
 - [x] Problems list from `cargo check` (with wavy underlines and "ask the agent to fix"), side-by-side diff, stage file by file, split editor.
+- [ ] Autocomplete from the file's own names and the language keywords: done on branch `autocompletar`, waiting for pelicano 0.1.31 (`TextEditor::completions`) to be published on crates.io (tag `v0.1.31` not pushed yet).
 - [ ] A better interface. [#1](https://github.com/feather-works/feathercode/issues/1)
 - [ ] A way to create apps and plugins from inside the editor. [#2](https://github.com/feather-works/feathercode/issues/2)
 

@@ -12,7 +12,7 @@ dependency, update its row here.
 | FeatherSlide | v0.1.0 | Iced 0.13 (`featherslide-gui`) and pelicano (`featherslide-pelicano`), migrating | v0.1.9 | v0.2.10 (Iced) / v0.3.0 (pelicano) |
 | FeatherDocs | v0.0.1 | Iced 0.13 (`featherdocs-gui`). **To migrate to pelicano** | — | v0.2.9 |
 | FeatherPDF | 0.1.4 | pelicano (`featherpdf-pelicano`) | 0.1.30 (crates.io) | v0.3.11 + brand (branch `featherpdf-v0.3.11`) |
-| FeatherCode | v0.0.2 | pelicano | v0.1.9 | v0.3.0 |
+| FeatherCode | v0.0.7 | pelicano | v0.1.27 (0.1.31 from crates.io on branch `autocompletar`) | v0.3.12 |
 | FeatherNotes | v0.1.9 | pelicano | v0.1.15 | — |
 | FeatherWorks Launcher | v0.1.8 | pelicano | v0.1.16 | — |
 | FeatherDB | v0.1.0 | pelicano | v0.1.27 | v0.3.13 |
