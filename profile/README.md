@@ -41,7 +41,7 @@ No account, no login, no telemetry. Everything runs on your machine and none of 
 | <img src="imagens/feathercode.svg" width="56"> | [**FeatherCode**](https://github.com/feather-works/feathercode) | Code editor with Claude Code in the side panel | v0.0.6 | [Linux and Windows](https://github.com/feather-works/feathercode/releases/latest) |
 | <img src="imagens/feathernotes.svg" width="56"> | [**FeatherNotes**](https://github.com/feather-works/feathernotes) | Notepad and desktop sticky notes: tabs that come back, Markdown, 30+ encodings | v0.1.15 | [Linux and Windows](https://github.com/feather-works/feathernotes/releases/latest) |
 | <img src="imagens/featherdocs.svg" width="56"> | [**FeatherDocs**](https://github.com/feather-works/featherdocs) | Documents: DOCX, LaTeX and Markdown | v0.1.7 | [Linux and Windows](https://github.com/feather-works/featherdocs/releases/latest) |
-| <img src="imagens/featherpdf.svg" width="56"> | [**FeatherPDF**](https://github.com/feather-works/featherpdf) | Reading and organizing PDFs: annotations, forms, OCR | v0.1.4 | [Linux and Windows](https://github.com/feather-works/featherpdf/releases/latest) |
+| <img src="imagens/featherpdf.svg" width="56"> | [**FeatherPDF**](https://github.com/feather-works/featherpdf) | Reading and organizing PDFs: annotations, forms, OCR | v0.1.5 | [Linux and Windows](https://github.com/feather-works/featherpdf/releases/latest) |
 | <img src="imagens/featherdb.svg" width="56"> | [**FeatherDB**](https://github.com/feather-works/featherdb) | Lightweight database client: PostgreSQL, MySQL, SQLite, MongoDB and ODBC (Datasphere, TDV, SQL Server…) | in development | — |
 | <img src="imagens/feathercad.svg" width="56"> | **FeatherCAD** | 2D and 3D technical drawing | in development | — |
 
