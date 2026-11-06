@@ -96,6 +96,7 @@ the grid, query history, format SQL, EXPLAIN, reconnect on a dropped connection.
 - [ ] Make building screens much faster and simpler. [#4](https://github.com/feather-works/pelicano/issues/4)
 - [ ] A way to validate screens (check layout and look automatically). [#5](https://github.com/feather-works/pelicano/issues/5)
 - [ ] 3D support. [#6](https://github.com/feather-works/pelicano/issues/6)
+- [x] 0.1.31 (05/11/2026): selecting text and moving the cursor from the app (`Task::select_all/move_cursor/select_range`, `Content::select/set_cursor`), Tab between fields, read-only editor, editor click and find-previous, `context_menu`, `virtual_list`, terminal Ctrl+click links, `Stack::fit_base`, `MouseArea::on_press_through`, tooltip with a bar, `svg().current_color()`, more styling on toggles and progress bars. Published once the tag `v0.1.31` is pushed (not pushed yet).
 
 ### [falcao](https://github.com/feather-works/falcao) (JavaScript engine)
 
