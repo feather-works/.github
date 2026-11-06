@@ -59,7 +59,7 @@ Still very raw.
 
 - [x] Editor basics: find and replace (Ctrl+F, Ctrl+H), go to line (Ctrl+G), ask before closing unsaved tabs, a warning when the agent changes a file you are still editing, right-click menus on files and tabs, new file and folder, file-type icons, Markdown preview, autosave, `file:line` links in the agent's replies, Commit and Push in one click.
 - [x] Problems list from `cargo check` (with wavy underlines and "ask the agent to fix"), side-by-side diff, stage file by file, split editor.
-- [ ] Autocomplete from the file's own names and the language keywords: done on branch `autocompletar`, waiting for pelicano 0.1.31 (`TextEditor::completions`) to be published on crates.io (tag `v0.1.31` not pushed yet).
+- [x] Autocomplete from the file's own names and the language keywords (pelicano 0.1.31 `TextEditor::completions`). FeatherCode keeps a `[patch]` from the pelicano git source to crates.io 0.1.31 until feather-ui moves to the crates.io pelicano.
 - [ ] A better interface. [#1](https://github.com/feather-works/feathercode/issues/1)
 - [ ] A way to create apps and plugins from inside the editor. [#2](https://github.com/feather-works/feathercode/issues/2)
 
@@ -96,7 +96,7 @@ the grid, query history, format SQL, EXPLAIN, reconnect on a dropped connection.
 - [ ] Make building screens much faster and simpler. [#4](https://github.com/feather-works/pelicano/issues/4)
 - [ ] A way to validate screens (check layout and look automatically). [#5](https://github.com/feather-works/pelicano/issues/5)
 - [ ] 3D support. [#6](https://github.com/feather-works/pelicano/issues/6)
-- [x] 0.1.31 (05/11/2026): selecting text and moving the cursor from the app (`Task::select_all/move_cursor/select_range`, `Content::select/set_cursor`), Tab between fields, read-only editor, editor click and find-previous, `context_menu`, `virtual_list`, terminal Ctrl+click links, `Stack::fit_base`, `MouseArea::on_press_through`, tooltip with a bar, `svg().current_color()`, more styling on toggles and progress bars. Published once the tag `v0.1.31` is pushed (not pushed yet).
+- [x] 0.1.31 (05/11/2026): selecting text and moving the cursor from the app (`Task::select_all/move_cursor/select_range`, `Content::select/set_cursor`), Tab between fields, read-only editor, editor click and find-previous, `context_menu`, `virtual_list`, terminal Ctrl+click links, `Stack::fit_base`, `MouseArea::on_press_through`, tooltip with a bar, `svg().current_color()`, more styling on toggles and progress bars. Published on crates.io.
 
 ### [falcao](https://github.com/feather-works/falcao) (JavaScript engine)
 
