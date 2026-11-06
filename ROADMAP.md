@@ -33,7 +33,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [ ] A better menu. [#2](https://github.com/feather-works/featherdocs/issues/2)
 - [ ] Better LaTeX editing. [#3](https://github.com/feather-works/featherdocs/issues/3)
 - [ ] Better document (`.docx`) support. [#4](https://github.com/feather-works/featherdocs/issues/4)
-- [ ] Filling in forms. [#5](https://github.com/feather-works/featherdocs/issues/5)
+- [x] Filling in forms. [#5](https://github.com/feather-works/featherdocs/issues/5)
 - [ ] Better MCP integration. [#6](https://github.com/feather-works/featherdocs/issues/6)
 - [ ] Better charts and tables, and open them in FeatherSheet to edit. [#7](https://github.com/feather-works/featherdocs/issues/7)
 - [ ] Complete the en-US and es-ES translations (interface and F1 help). [#8](https://github.com/feather-works/featherdocs/issues/8)
