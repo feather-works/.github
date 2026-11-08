@@ -18,7 +18,7 @@ The most complete app. Formulas are in good shape.
 - [ ] More languages (interface, function names and help beyond Portuguese
       and English). [#141](https://github.com/feather-works/feathersheet/issues/141)
 - [ ] Faster formula recalculation. [#142](https://github.com/feather-works/feathersheet/issues/142)
-- [ ] Better OpenQuery (Power Query M ↔ OpenQuery script done 08/11; next: read the queries saved inside .xlsx). [#94](https://github.com/feather-works/feathersheet/issues/94), [#93](https://github.com/feather-works/feathersheet/issues/93), [#70](https://github.com/feather-works/feathersheet/issues/70)
+- [ ] Better OpenQuery (Power Query M ↔ OpenQuery script and the queries saved inside .xlsx done 08/11). [#94](https://github.com/feather-works/feathersheet/issues/94), [#93](https://github.com/feather-works/feathersheet/issues/93), [#70](https://github.com/feather-works/feathersheet/issues/70)
 - [ ] Test many more macros (real VBA files converted to JavaScript). [#143](https://github.com/feather-works/feathersheet/issues/143)
 - [ ] Look for other integrations. [#144](https://github.com/feather-works/feathersheet/issues/144)
 - [x] Sparklines in cells (v0.2.9).
