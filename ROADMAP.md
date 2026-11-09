@@ -67,7 +67,7 @@ Still very raw.
 ## <img src="profile/imagens/featherpdf.svg" width="24"> FeatherPDF 🟡
 
 - [ ] Usability. [#1](https://github.com/feather-works/featherpdf/issues/1)
-- [ ] Use less RAM (find a better way to load and keep pages). [#2](https://github.com/feather-works/featherpdf/issues/2)
+- [ ] Use less RAM (find a better way to load and keep pages; reading from the mapped file released in v0.1.6). [#2](https://github.com/feather-works/featherpdf/issues/2)
 - [ ] Other ways to make common tasks faster. [#3](https://github.com/feather-works/featherpdf/issues/3)
 
 ## <img src="profile/imagens/featherdb.svg" width="24"> FeatherDB 🔴
