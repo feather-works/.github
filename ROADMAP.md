@@ -22,6 +22,7 @@ The most complete app. Formulas are in good shape.
 - [ ] Test many more macros (real VBA files converted to JavaScript). [#143](https://github.com/feather-works/feathersheet/issues/143)
 - [ ] Look for other integrations. [#144](https://github.com/feather-works/feathersheet/issues/144)
 - [x] Sparklines in cells (v0.2.9).
+- [x] Gantt today line and bars colored by status (done 08/11, in the next release; uses feather-charts v0.3.5 by commit until its tag is published). [#133](https://github.com/feather-works/feathersheet/issues/133)
 - [ ] Slicers and timelines for pivot tables. [#145](https://github.com/feather-works/feathersheet/issues/145)
 - [ ] Community add-ons. [#146](https://github.com/feather-works/feathersheet/issues/146)
 

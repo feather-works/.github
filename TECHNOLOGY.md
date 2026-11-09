@@ -27,7 +27,7 @@ v0.3.x only.
 |---|---|---|---|---|---|
 | `feather-draw` | vector drawing, ink, pen pressure | v0.1.1 | v0.1.1 | v0.1.1 / v0.1.3 | v0.1.1 |
 | `feather-shapes` | shapes (rectangle, arrow, callout…) | v0.1.2 | v0.1.2 | — | v0.1.2 |
-| `feather-charts` | charts | v0.3.2 | v0.3.2 | v0.3.2 | — |
+| `feather-charts` | charts | v0.3.5 (by commit `02bead2` until the tag is published) | v0.3.2 | v0.3.2 | — |
 | `feather-io` (`feather-tables`, `feather-image`) | shared tables and images, `.xlsx`/`.docx`/`.pptx` | v0.2.0 | v0.1.3 | v0.1.3 | v0.1.3 |
 | `feather-macros` (in `feather-io`) | JavaScript macros; Falcão by default since v0.2.0 | v0.2.0 | — | — | v0.1.3 |
 | `falcao` | in-house JavaScript engine (replaces Boa) | v0.1.1 | — | — | — |
