@@ -8,7 +8,7 @@ dependency, update its row here.
 
 | App | Version | UI toolkit | pelicano | feather-ui |
 |---|---|---|---|---|
-| FeatherSheet | v0.2.9 | pelicano | 0.1.30 (crates.io) | v0.3.15 |
+| FeatherSheet | v0.3.1 | pelicano | 0.1.33 (crates.io) on `main`; the published v0.3.1 uses 0.1.30 | v0.3.16 on `main` (Feather Sans); v0.3.1 uses v0.3.15 |
 | FeatherSlide | v0.1.0 | Iced 0.13 (`featherslide-gui`) and pelicano (`featherslide-pelicano`), migrating | v0.1.9 | v0.2.10 (Iced) / v0.3.0 (pelicano) |
 | FeatherDocs | v0.0.1 | Iced 0.13 (`featherdocs-gui`). **To migrate to pelicano** | — | v0.2.9 |
 | FeatherPDF | 0.1.4 | pelicano (`featherpdf-pelicano`) | 0.1.30 (crates.io) | v0.3.11 + brand (branch `featherpdf-v0.3.11`) |
