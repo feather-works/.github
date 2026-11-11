@@ -16,7 +16,7 @@ Status: ✅ in good shape · 🟡 usable, needs work · 🔴 early stage
 The most complete app. Formulas are in good shape.
 
 - [ ] More languages (interface, function names and help beyond Portuguese
-      and English). [#141](https://github.com/feather-works/feathersheet/issues/141)
+      and English; Spanish released, French interface in `main` for the next version). [#141](https://github.com/feather-works/feathersheet/issues/141)
 - [ ] Faster formula recalculation. [#142](https://github.com/feather-works/feathersheet/issues/142)
 - [ ] Better OpenQuery (Power Query M ↔ OpenQuery script and the queries saved inside .xlsx released in v0.3.0). [#94](https://github.com/feather-works/feathersheet/issues/94), [#93](https://github.com/feather-works/feathersheet/issues/93), [#70](https://github.com/feather-works/feathersheet/issues/70)
 - [ ] Test many more macros (real VBA files converted to JavaScript). [#143](https://github.com/feather-works/feathersheet/issues/143)
