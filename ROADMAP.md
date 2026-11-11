@@ -25,6 +25,7 @@ The most complete app. Formulas are in good shape.
 - [x] Gantt today line and bars colored by status (released in v0.3.0; uses feather-charts v0.3.5 by commit until its tag is published). [#133](https://github.com/feather-works/feathersheet/issues/133)
 - [ ] Slicers and timelines for pivot tables. [#145](https://github.com/feather-works/feathersheet/issues/145)
 - [ ] Community add-ons. [#146](https://github.com/feather-works/feathersheet/issues/146)
+- [x] Password-protected `.xlsx` (open and save), Consolidate, 3D references (`Jan:Dec!B5`), grouped and calculated pivot items (in `main`, next version).
 
 Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathersheet/blob/main/ROADMAP.md).
 
@@ -38,6 +39,9 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [ ] Better MCP integration. [#6](https://github.com/feather-works/featherdocs/issues/6)
 - [ ] Better charts and tables, and open them in FeatherSheet to edit. [#7](https://github.com/feather-works/featherdocs/issues/7)
 - [ ] Complete the en-US and es-ES translations (interface and F1 help). [#8](https://github.com/feather-works/featherdocs/issues/8)
+- [x] Sort paragraphs A to Z, long sentences flagged in Review, reading and speaking time (in `main`, next version).
+- [ ] Go to page (Ctrl+G), synonyms in English and Spanish, saved snippets (autotext), character goal.
+- [ ] Exported Markdown does not escape `_`, `1.`, `#` or `>` at the start of a paragraph ("1. Introduction" comes back as a list).
 
 ## <img src="profile/imagens/featherslide.svg" width="24"> FeatherSlide 🟡
 
@@ -47,12 +51,17 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [ ] Usability of the MCP integration. [#3](https://github.com/feather-works/featherslide/issues/3)
 - [ ] More templates. [#4](https://github.com/feather-works/featherslide/issues/4)
 - [ ] More animations. [#5](https://github.com/feather-works/featherslide/issues/5)
+- [x] Go to a slide by number while presenting, footer "Start at", `.odp` inner margin, and the fix for `.fsdz` files that stopped opening after Replace or Outline (in `main`, next version).
+- [ ] Laser pointer, pen and slide grid while presenting; Spanish interface; local date on Windows.
 
 ## <img src="profile/imagens/feathernotes.svg" width="24"> FeatherNotes ✅
 
 Usability is fine.
 
 - [ ] Optimize the remaining slow parts (most of it is likely in pelicano). [#4](https://github.com/feather-works/feathernotes/issues/4)
+- [x] Selection word and character count, and "Transform selection" (upper/lower case, Base64/JWT, URL, HTML, escapes) (in `main`, next version).
+- [ ] Read-only hex viewer.
+- [ ] pelicano: selection length or range, so the status bar does not copy the whole selection every frame.
 
 ## <img src="profile/imagens/feathercode.svg" width="24"> FeatherCode 🔴
 
@@ -69,6 +78,9 @@ Still very raw.
 - [ ] Usability. [#1](https://github.com/feather-works/featherpdf/issues/1)
 - [ ] Use less RAM (find a better way to load and keep pages; reading from the mapped file released in v0.1.6). [#2](https://github.com/feather-works/featherpdf/issues/2)
 - [ ] Other ways to make common tasks faster. [#3](https://github.com/feather-works/featherpdf/issues/3)
+- [x] No internet access, copy/paste pages, logical page numbers, edit bookmarks and links, field rules, paper size when printing, attach a file, rotate an image, zoom to area (in `main`, next version).
+- [x] Hardened against malicious PDFs (decompression caps, field formulas) and safer redaction (11/11/2026).
+- [ ] Date format in fields, rotate the view, presentation mode, move heavy work off the window thread.
 
 ## <img src="profile/imagens/featherdb.svg" width="24"> FeatherDB 🔴
 
