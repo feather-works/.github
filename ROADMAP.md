@@ -22,10 +22,10 @@ The most complete app. Formulas are in good shape.
 - [ ] Test many more macros (real VBA files converted to JavaScript). [#143](https://github.com/feather-works/feathersheet/issues/143)
 - [ ] Look for other integrations. [#144](https://github.com/feather-works/feathersheet/issues/144)
 - [x] Sparklines in cells (v0.2.9).
-- [x] Gantt today line and bars colored by status (released in v0.3.0; uses feather-charts v0.3.5 by commit until its tag is published). [#133](https://github.com/feather-works/feathersheet/issues/133)
+- [x] Gantt today line and bars colored by status (released in v0.3.0; feather-charts v0.3.5 by tag since v0.3.1). [#133](https://github.com/feather-works/feathersheet/issues/133)
 - [ ] Slicers and timelines for pivot tables. [#145](https://github.com/feather-works/feathersheet/issues/145)
 - [ ] Community add-ons. [#146](https://github.com/feather-works/feathersheet/issues/146)
-- [x] Password-protected `.xlsx` (open and save), Consolidate, 3D references (`Jan:Dec!B5`), grouped and calculated pivot items (in `main`, next version).
+- [x] Password-protected `.xlsx` (open and save), Consolidate, 3D references (`Jan:Dec!B5`), grouped and calculated pivot items (released in v0.3.1).
 
 Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathersheet/blob/main/ROADMAP.md).
 
