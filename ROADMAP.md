@@ -18,7 +18,7 @@ The most complete app. Formulas are in good shape.
 - [ ] More languages (interface, function names and help beyond Portuguese
       and English; Spanish released, French interface in `main` for the next version). [#141](https://github.com/feather-works/feathersheet/issues/141)
 - [ ] Faster formula recalculation. [#142](https://github.com/feather-works/feathersheet/issues/142)
-- [ ] Better FeatherQuery (Power Query M ↔ FeatherQuery script and the queries saved inside .xlsx released in v0.3.0; renaming saved queries in `main`, folders still missing). [#94](https://github.com/feather-works/feathersheet/issues/94), [#93](https://github.com/feather-works/feathersheet/issues/93), [#70](https://github.com/feather-works/feathersheet/issues/70)
+- [ ] Better FeatherQuery (Power Query M ↔ FeatherQuery script and the queries saved inside .xlsx released in v0.3.0; renaming, folders, named steps, Excel .iqy Web queries and macro autocomplete in `main`). [#94](https://github.com/feather-works/feathersheet/issues/94), [#93](https://github.com/feather-works/feathersheet/issues/93), [#70](https://github.com/feather-works/feathersheet/issues/70)
 - [ ] Test many more macros (real VBA files converted to JavaScript). [#143](https://github.com/feather-works/feathersheet/issues/143)
 - [ ] Look for other integrations. [#144](https://github.com/feather-works/feathersheet/issues/144)
 - [x] Sparklines in cells (v0.2.9).
@@ -27,7 +27,7 @@ The most complete app. Formulas are in good shape.
 - [ ] Community add-ons. [#146](https://github.com/feather-works/feathersheet/issues/146)
 - [x] Password-protected `.xlsx` (open and save), Consolidate, 3D references (`Jan:Dec!B5`), grouped and calculated pivot items (released in v0.3.1).
 - [x] Audit of 13/11/2026 (in `main`, next version): formulas closer to Excel (a formula pointing at an empty cell is 0, wildcards and the 0 criterion in COUNTIF/SUMIF, errors in SUMIFS, IFERROR over arrays, INDEX with row 0, text dates, TEXT sections) and no lost work (Ctrl+Z after opening another file, saving while a macro runs, empty recovery copy, Ctrl+C of a whole column, delete sheet asks first).
-- [ ] From the same audit: whole-column formatting, pictures and frozen panes saved back to `.xlsx`, CSV with the shown values, PROCX return columns, copying `B:B` references.
+- [x] From the same audit (in `main`): whole-column, row and sheet formatting, pictures and frozen panes saved back to `.xlsx`, links to other sheets, CSV with the shown values, PROCX return columns and search modes, copying `B:B` references, Delete on a filtered table. Shapes and text boxes are still not written to `.xlsx`.
 - [x] Iterative calculation, Excel-like thousands separator on typing/paste/CSV, engine messages and error codes in the app language, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.3.2). [#163](https://github.com/feather-works/feathersheet/issues/163)
 
 Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathersheet/blob/main/ROADMAP.md).
