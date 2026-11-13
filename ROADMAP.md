@@ -84,7 +84,7 @@ Still very raw.
 - [x] Dark page: logos on a white background and scanned pages now darken too; thin ribbon scrollbar in the dark theme (in `main`, next version).
 - [x] Audit of 13/11/2026 (in `main`, next version): no lost files (Ctrl+Z after Save As, same PDF in two tabs, Remove password undo, Save As over a signed original), safer redaction (half-covered letters, XFA, glyph widths, fields and comments searched), no JavaScript injection through field names, scripts run in a separate process with a time limit, faster large PDFs, OCR without duplicated text and off the window thread, merging keeps bookmarks and named links.
 - [x] From the audit: "Split by size" makes one copy per measure and few measures per part (measuring without saving left out: it would misjudge compression). The public IP lookup in signatures stays, by decision.
-- [x] Lighter start page: side menu with icons, no solid red blocks, PDF icon in the recent list (in `main`, next version).
+- [x] New start page in the FeatherDocs style (brand header, tools panel, recent files table) and a warm graphite dark theme (in `main`, next version).
 - [x] Presentation mode (F5): full screen, one page at a time on black, arrows/space to move, Esc to leave (in `main`, next version).
 - [ ] Date format in fields, rotate the view, move heavy work off the window thread.
 
