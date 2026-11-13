@@ -52,7 +52,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [ ] Usability of the MCP integration. [#3](https://github.com/feather-works/featherslide/issues/3)
 - [ ] More templates. [#4](https://github.com/feather-works/featherslide/issues/4)
 - [ ] More animations. [#5](https://github.com/feather-works/featherslide/issues/5)
-- [x] Go to a slide by number while presenting, footer "Start at", `.odp` inner margin, and the fix for `.fsdz` files that stopped opening after Replace or Outline (in `main`, next version).
+- [x] Go to a slide by number while presenting, footer "Start at", `.odp` inner margin, and the fix for `.fsdz` files that stopped opening after Replace or Outline (released in v0.2.1).
 - [ ] Laser pointer, pen and slide grid while presenting; Spanish interface; local date on Windows.
 
 ## <img src="profile/imagens/feathernotes.svg" width="24"> FeatherNotes ✅
@@ -70,7 +70,7 @@ Still very raw.
 
 - [x] Editor basics: find and replace (Ctrl+F, Ctrl+H), go to line (Ctrl+G), ask before closing unsaved tabs, a warning when the agent changes a file you are still editing, right-click menus on files and tabs, new file and folder, file-type icons, Markdown preview, autosave, `file:line` links in the agent's replies, Commit and Push in one click.
 - [x] Problems list from `cargo check` (with wavy underlines and "ask the agent to fix"), side-by-side diff, stage file by file, split editor.
-- [x] Autocomplete from the file's own names and the language keywords (pelicano 0.1.31 `TextEditor::completions`). FeatherCode keeps a `[patch]` from the pelicano git source to crates.io 0.1.31 until feather-ui moves to the crates.io pelicano.
+- [x] Autocomplete from the file's own names and the language keywords (pelicano 0.1.31 `TextEditor::completions`). Since v0.0.8 the app is on pelicano 0.1.34 and feather-ui v0.3.16, both on the crates.io pelicano, so the `[patch]` is gone.
 - [ ] A better interface. [#1](https://github.com/feather-works/feathercode/issues/1)
 - [ ] A way to create apps and plugins from inside the editor. [#2](https://github.com/feather-works/feathercode/issues/2)
 
@@ -79,7 +79,7 @@ Still very raw.
 - [ ] Usability. [#1](https://github.com/feather-works/featherpdf/issues/1)
 - [ ] Use less RAM (find a better way to load and keep pages; reading from the mapped file released in v0.1.6). [#2](https://github.com/feather-works/featherpdf/issues/2)
 - [ ] Other ways to make common tasks faster. [#3](https://github.com/feather-works/featherpdf/issues/3)
-- [x] No internet access, copy/paste pages, logical page numbers, edit bookmarks and links, field rules, paper size when printing, attach a file, rotate an image, zoom to area (in `main`, next version).
+- [x] No internet access, copy/paste pages, logical page numbers, edit bookmarks and links, field rules, paper size when printing, attach a file, rotate an image, zoom to area (released in v0.1.7).
 - [x] Hardened against malicious PDFs (decompression caps, field formulas) and safer redaction (11/11/2026).
 - [ ] Date format in fields, rotate the view, presentation mode, move heavy work off the window thread.
 

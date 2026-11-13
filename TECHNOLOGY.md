@@ -9,13 +9,13 @@ dependency, update its row here.
 | App | Version | UI toolkit | pelicano | feather-ui |
 |---|---|---|---|---|
 | FeatherSheet | v0.3.2 | pelicano | 0.1.34 (crates.io): window drawn by the CPU when the card has no usable Vulkan/OpenGL | v0.3.16 (Feather Sans) |
-| FeatherSlide | v0.1.0 | Iced 0.13 (`featherslide-gui`) and pelicano (`featherslide-pelicano`), migrating | v0.1.9 | v0.2.10 (Iced) / v0.3.0 (pelicano) |
+| FeatherSlide | v0.2.1 | pelicano | 0.1.34 (crates.io): window drawn by the CPU when the card has no usable Vulkan/OpenGL | v0.3.16 |
 | FeatherDocs | v0.1.10 | pelicano (`featherdocs-pelicano`) | 0.1.34 (crates.io): window drawn by the CPU when the card has no usable Vulkan/OpenGL | v0.3.16 |
-| FeatherPDF | 0.1.4 | pelicano (`featherpdf-pelicano`) | 0.1.30 (crates.io) | v0.3.11 + brand (branch `featherpdf-v0.3.11`) |
-| FeatherCode | v0.0.7 | pelicano | v0.1.31 (crates.io) | v0.3.12 |
+| FeatherPDF | v0.1.7 | pelicano (`featherpdf-pelicano`) | 0.1.34 (crates.io): window drawn by the CPU when the card has no usable Vulkan/OpenGL | v0.3.11 + brand (branch `featherpdf-v0.3.11`) |
+| FeatherCode | v0.0.8 | pelicano | 0.1.34 (crates.io): window drawn by the CPU when the card has no usable Vulkan/OpenGL | v0.3.16 |
 | FeatherNotes | v0.1.16 | pelicano | 0.1.34 (crates.io): window drawn by the CPU when the card has no usable Vulkan/OpenGL | — |
 | FeatherWorks Launcher | v0.1.11 | pelicano | 0.1.34 (crates.io): window drawn by the CPU when the card has no usable Vulkan/OpenGL | — |
-| FeatherDB | v0.1.0 | pelicano | v0.1.27 | v0.3.13 |
+| FeatherDB | v0.1.0 | pelicano | 0.1.34 (crates.io): window drawn by the CPU when the card has no usable Vulkan/OpenGL | v0.3.16 |
 
 `feather-ui` has two lines in the same repository: **v0.2.x = Iced 0.13** and
 **v0.3.x = pelicano** (local copy in `feather-ui-pelicano/`). New code goes to
