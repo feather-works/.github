@@ -26,6 +26,8 @@ The most complete app. Formulas are in good shape.
 - [ ] Slicers and timelines for pivot tables. [#145](https://github.com/feather-works/feathersheet/issues/145)
 - [ ] Community add-ons. [#146](https://github.com/feather-works/feathersheet/issues/146)
 - [x] Password-protected `.xlsx` (open and save), Consolidate, 3D references (`Jan:Dec!B5`), grouped and calculated pivot items (released in v0.3.1).
+- [x] Audit of 13/11/2026 (in `main`, next version): formulas closer to Excel (a formula pointing at an empty cell is 0, wildcards and the 0 criterion in COUNTIF/SUMIF, errors in SUMIFS, IFERROR over arrays, INDEX with row 0, text dates, TEXT sections) and no lost work (Ctrl+Z after opening another file, saving while a macro runs, empty recovery copy, Ctrl+C of a whole column, delete sheet asks first).
+- [ ] From the same audit: whole-column formatting, pictures and frozen panes saved back to `.xlsx`, CSV with the shown values, PROCX return columns, copying `B:B` references.
 - [x] Iterative calculation, Excel-like thousands separator on typing/paste/CSV, engine messages and error codes in the app language, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.3.2). [#163](https://github.com/feather-works/feathersheet/issues/163)
 
 Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathersheet/blob/main/ROADMAP.md).
