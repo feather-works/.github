@@ -40,7 +40,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [ ] Better MCP integration. [#6](https://github.com/feather-works/featherdocs/issues/6)
 - [ ] Better charts and tables, and open them in FeatherSheet to edit. [#7](https://github.com/feather-works/featherdocs/issues/7)
 - [ ] Complete the en-US and es-ES translations (interface and F1 help). [#8](https://github.com/feather-works/featherdocs/issues/8)
-- [x] Sort paragraphs A to Z, long sentences flagged in Review, reading and speaking time (in `main`, next version).
+- [x] Sort paragraphs A to Z, long sentences flagged in Review, reading and speaking time, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.1.10).
 - [ ] Go to page (Ctrl+G), synonyms in English and Spanish, saved snippets (autotext), character goal.
 - [ ] Exported Markdown does not escape `_`, `1.`, `#` or `>` at the start of a paragraph ("1. Introduction" comes back as a list).
 
@@ -60,7 +60,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 Usability is fine.
 
 - [ ] Optimize the remaining slow parts (most of it is likely in pelicano). [#4](https://github.com/feather-works/feathernotes/issues/4)
-- [x] Selection word and character count, and "Transform selection" (upper/lower case, Base64/JWT, URL, HTML, escapes) (in `main`, next version).
+- [x] Selection word and character count, and "Transform selection" (upper/lower case, Base64/JWT, URL, HTML, escapes), and startup on graphics cards without usable Vulkan/OpenGL (released in v0.1.16).
 - [ ] Read-only hex viewer.
 - [ ] pelicano: selection length or range, so the status bar does not copy the whole selection every frame.
 
