@@ -81,6 +81,7 @@ Still very raw.
 - [ ] Other ways to make common tasks faster. [#3](https://github.com/feather-works/featherpdf/issues/3)
 - [x] No internet access, copy/paste pages, logical page numbers, edit bookmarks and links, field rules, paper size when printing, attach a file, rotate an image, zoom to area (released in v0.1.7).
 - [x] Hardened against malicious PDFs (decompression caps, field formulas) and safer redaction (11/11/2026).
+- [x] Dark page: logos on a white background and scanned pages now darken too; thin ribbon scrollbar in the dark theme (in `main`, next version).
 - [ ] Date format in fields, rotate the view, presentation mode, move heavy work off the window thread.
 
 ## <img src="profile/imagens/featherdb.svg" width="24"> FeatherDB 🔴
