@@ -82,6 +82,8 @@ Still very raw.
 - [x] No internet access, copy/paste pages, logical page numbers, edit bookmarks and links, field rules, paper size when printing, attach a file, rotate an image, zoom to area (released in v0.1.7).
 - [x] Hardened against malicious PDFs (decompression caps, field formulas) and safer redaction (11/11/2026).
 - [x] Dark page: logos on a white background and scanned pages now darken too; thin ribbon scrollbar in the dark theme (in `main`, next version).
+- [x] Audit of 13/11/2026 (in `main`, next version): no lost files (Ctrl+Z after Save As, same PDF in two tabs, Remove password undo, Save As over a signed original), safer redaction (half-covered letters, XFA, glyph widths, fields and comments searched), no JavaScript injection through field names, scripts run in a separate process with a time limit, faster large PDFs, OCR without duplicated text and off the window thread, merging keeps bookmarks and named links.
+- [ ] From the audit: public IP in "computer data" of signatures still fetched over plain HTTP (keep or drop is a product decision); "Split by size" still copies the document once per measure.
 - [ ] Date format in fields, rotate the view, presentation mode, move heavy work off the window thread.
 
 ## <img src="profile/imagens/featherdb.svg" width="24"> FeatherDB 🔴
