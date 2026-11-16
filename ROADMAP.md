@@ -16,9 +16,9 @@ Status: ✅ in good shape · 🟡 usable, needs work · 🔴 early stage
 The most complete app. Formulas are in good shape.
 
 - [ ] More languages (interface, function names and help beyond Portuguese
-      and English; Spanish released, French interface in `main` for the next version). [#141](https://github.com/feather-works/feathersheet/issues/141)
+      and English; Spanish released, French interface released in v0.3.1). [#141](https://github.com/feather-works/feathersheet/issues/141)
 - [ ] Faster formula recalculation. [#142](https://github.com/feather-works/feathersheet/issues/142)
-- [ ] Better FeatherQuery (Power Query M ↔ FeatherQuery script and the queries saved inside .xlsx released in v0.3.0; renaming, folders, named steps, Excel .iqy Web queries, SQLite, PostgreSQL, MySQL and SQL Server databases and macro autocomplete in `main`). [#94](https://github.com/feather-works/feathersheet/issues/94), [#93](https://github.com/feather-works/feathersheet/issues/93), [#70](https://github.com/feather-works/feathersheet/issues/70)
+- [ ] Better FeatherQuery (Power Query M ↔ FeatherQuery script and the queries saved inside .xlsx released in v0.3.0; renaming, folders, named steps, Excel .iqy Web queries, SQLite, PostgreSQL, MySQL and SQL Server databases and macro autocomplete released in v0.3.3). [#94](https://github.com/feather-works/feathersheet/issues/94), [#93](https://github.com/feather-works/feathersheet/issues/93), [#70](https://github.com/feather-works/feathersheet/issues/70)
 - [ ] Test many more macros (real VBA files converted to JavaScript). [#143](https://github.com/feather-works/feathersheet/issues/143)
 - [ ] Look for other integrations. [#144](https://github.com/feather-works/feathersheet/issues/144)
 - [x] Sparklines in cells (v0.2.9).
@@ -26,9 +26,9 @@ The most complete app. Formulas are in good shape.
 - [ ] Slicers and timelines for pivot tables. [#145](https://github.com/feather-works/feathersheet/issues/145)
 - [ ] Community add-ons. [#146](https://github.com/feather-works/feathersheet/issues/146)
 - [x] Password-protected `.xlsx` (open and save), Consolidate, 3D references (`Jan:Dec!B5`), grouped and calculated pivot items (released in v0.3.1).
-- [x] Audit of 13/11/2026 (in `main`, next version): formulas closer to Excel (a formula pointing at an empty cell is 0, wildcards and the 0 criterion in COUNTIF/SUMIF, errors in SUMIFS, IFERROR over arrays, INDEX with row 0, text dates, TEXT sections) and no lost work (Ctrl+Z after opening another file, saving while a macro runs, empty recovery copy, Ctrl+C of a whole column, delete sheet asks first).
-- [x] From the same audit (in `main`): whole-column, row and sheet formatting, pictures and frozen panes saved back to `.xlsx`, links to other sheets, CSV with the shown values, PROCX return columns and search modes, copying `B:B` references, Delete on a filtered table. Shapes and text boxes are still not written to `.xlsx`.
-- [ ] Excel-like screens still missing: micro mode (menus and search in the title bar), Arrange and the Selection Pane, Allow Edit Ranges, Spell check (F7) and Show Changes are in `main`; still missing New window, Themes and Group. [#68](https://github.com/feather-works/feathersheet/issues/68), [#79](https://github.com/feather-works/feathersheet/issues/79), [#82](https://github.com/feather-works/feathersheet/issues/82), [#83](https://github.com/feather-works/feathersheet/issues/83), [#80](https://github.com/feather-works/feathersheet/issues/80)
+- [x] Audit of 13/11/2026 (released in v0.3.3): formulas closer to Excel (a formula pointing at an empty cell is 0, wildcards and the 0 criterion in COUNTIF/SUMIF, errors in SUMIFS, IFERROR over arrays, INDEX with row 0, text dates, TEXT sections) and no lost work (Ctrl+Z after opening another file, saving while a macro runs, empty recovery copy, Ctrl+C of a whole column, delete sheet asks first).
+- [x] From the same audit (released in v0.3.3): whole-column, row and sheet formatting, pictures and frozen panes saved back to `.xlsx`, links to other sheets, CSV with the shown values, PROCX return columns and search modes, copying `B:B` references, Delete on a filtered table. Shapes and text boxes are still not written to `.xlsx`.
+- [ ] Excel-like screens still missing: micro mode (menus and search in the title bar), Arrange and the Selection Pane, Allow Edit Ranges, Spell check (F7) and Show Changes released in v0.3.3; still missing New window, Themes and Group. [#68](https://github.com/feather-works/feathersheet/issues/68), [#79](https://github.com/feather-works/feathersheet/issues/79), [#82](https://github.com/feather-works/feathersheet/issues/82), [#83](https://github.com/feather-works/feathersheet/issues/83), [#80](https://github.com/feather-works/feathersheet/issues/80)
 - [x] Iterative calculation, Excel-like thousands separator on typing/paste/CSV, engine messages and error codes in the app language, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.3.2). [#163](https://github.com/feather-works/feathersheet/issues/163)
 
 Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathersheet/blob/main/ROADMAP.md).
@@ -42,7 +42,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [x] Filling in forms. [#5](https://github.com/feather-works/featherdocs/issues/5)
 - [ ] Better MCP integration. [#6](https://github.com/feather-works/featherdocs/issues/6)
 - [ ] Better charts and tables, and open them in FeatherSheet to edit. [#7](https://github.com/feather-works/featherdocs/issues/7)
-- [x] Complete the en-US and es-ES translations (interface and F1 help). [#8](https://github.com/feather-works/featherdocs/issues/8)
+- [x] Complete the en-US and es-ES translations (interface and F1 help). [#8](https://github.com/feather-works/featherdocs/issues/8) (released in v0.1.11)
 - [x] Sort paragraphs A to Z, long sentences flagged in Review, reading and speaking time, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.1.10).
 - [ ] Go to page (Ctrl+G), synonyms in English and Spanish, saved snippets (autotext), character goal.
 - [ ] Exported Markdown does not escape `_`, `1.`, `#` or `>` at the start of a paragraph ("1. Introduction" comes back as a list).
@@ -51,7 +51,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 
 - [x] Fix layout drift: elements move slightly when an existing presentation
       is opened (embedded fonts, such as Barlow Condensed, are now measured and drawn with
-      their own widths; in `main`, goes out in the next release). [#1](https://github.com/feather-works/featherslide/issues/1)
+      their own widths; released in v0.2.2). [#1](https://github.com/feather-works/featherslide/issues/1)
 - [ ] Usability across the editor. [#2](https://github.com/feather-works/featherslide/issues/2)
 - [ ] Usability of the MCP integration. [#3](https://github.com/feather-works/featherslide/issues/3)
 - [ ] More templates. [#4](https://github.com/feather-works/featherslide/issues/4)
@@ -64,7 +64,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 Usability is fine.
 
 - [ ] Optimize the remaining slow parts (most of it is likely in pelicano). [#4](https://github.com/feather-works/feathernotes/issues/4)
-  - Measured on a 50 MB log (16/11/2026): typing no longer rescans the whole text for look-alike letters on every key (−37 ms per key; done on `main`). Still left, all in pelicano: each key costs ~25 ms more and an idle frame ~19 ms more than on a small note.
+  - Measured on a 50 MB log (16/11/2026): typing no longer rescans the whole text for look-alike letters on every key (−37 ms per key; released in v0.1.17). Still left, all in pelicano: each key costs ~25 ms more and an idle frame ~19 ms more than on a small note.
 - [x] Selection word and character count, and "Transform selection" (upper/lower case, Base64/JWT, URL, HTML, escapes), and startup on graphics cards without usable Vulkan/OpenGL (released in v0.1.16).
 - [ ] Read-only hex viewer.
 - [ ] pelicano: selection length or range, so the status bar does not copy the whole selection every frame.
@@ -82,7 +82,7 @@ Still very raw.
 ## <img src="profile/imagens/featherpdf.svg" width="24"> FeatherPDF 🟡
 
 - [ ] Usability. [#1](https://github.com/feather-works/featherpdf/issues/1)
-- [ ] Use less RAM (find a better way to load and keep pages; reading from the mapped file released in v0.1.6). [#2](https://github.com/feather-works/featherpdf/issues/2)
+- [ ] Use less RAM (find a better way to load and keep pages; reading from the mapped file released in v0.1.6; measured on 16/11 and closing a PDF now gives back the image cache, 232 → 28 MB; what is left while open is in hayro-syntax and lopdf). [#2](https://github.com/feather-works/featherpdf/issues/2)
 - [ ] Other ways to make common tasks faster. [#3](https://github.com/feather-works/featherpdf/issues/3)
 - [x] No internet access, copy/paste pages, logical page numbers, edit bookmarks and links, field rules, paper size when printing, attach a file, rotate an image, zoom to area (released in v0.1.7).
 - [x] Hardened against malicious PDFs (decompression caps, field formulas) and safer redaction (11/11/2026).
