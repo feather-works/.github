@@ -65,7 +65,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 Usability is fine.
 
 - [ ] Optimize the remaining slow parts (most of it is likely in pelicano). [#4](https://github.com/feather-works/feathernotes/issues/4)
-  - Measured on a 50 MB log (16/11/2026): typing no longer rescans the whole text for look-alike letters on every key (−37 ms per key; released in v0.1.17). Still left, all in pelicano: each key costs ~25 ms more and an idle frame ~19 ms more than on a small note.
+  - Measured on a 50 MB log (16/11/2026): typing no longer rescans the whole text for look-alike letters on every key (−37 ms per key; released in v0.1.17). Measured again on 16/11 (48 MB, 600k lines, release build): opening went from 146 to 75 ms (no extra copy of the text, one quick pass for broken accents) and the Properties panel from 215 to 150 ms (counts in one pass); on main for the next release. Still left, all in pelicano: an idle frame or a key ~25–29 ms (9 ms on a small note), the first frame 205 ms, Find 175–195 ms, Replace All ~540 ms, and ~60 ms per frame while a big selection is active (the item below).
 - [x] Selection word and character count, and "Transform selection" (upper/lower case, Base64/JWT, URL, HTML, escapes), and startup on graphics cards without usable Vulkan/OpenGL (released in v0.1.16).
 - [ ] Read-only hex viewer.
 - [ ] pelicano: selection length or range, so the status bar does not copy the whole selection every frame.
