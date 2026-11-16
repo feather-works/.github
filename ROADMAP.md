@@ -44,8 +44,8 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [ ] Better charts and tables, and open them in FeatherSheet to edit. [#7](https://github.com/feather-works/featherdocs/issues/7)
 - [x] Complete the en-US and es-ES translations (interface and F1 help). [#8](https://github.com/feather-works/featherdocs/issues/8) (released in v0.1.11)
 - [x] Sort paragraphs A to Z, long sentences flagged in Review, reading and speaking time, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.1.10).
-- [ ] Go to page (Ctrl+G), synonyms in English and Spanish, saved snippets (autotext), character goal.
-- [ ] Exported Markdown does not escape `_`, `1.`, `#` or `>` at the start of a paragraph ("1. Introduction" comes back as a list).
+- [x] Go to page (Ctrl+G, Edit → Go to page, Review → Go to) and exported Markdown escapes a paragraph that starts like a heading, quote or list ("1. Introduction" comes back as a paragraph), on main for the next release.
+- [ ] Synonyms in English and Spanish, saved snippets (autotext), character goal.
 
 ## <img src="profile/imagens/featherslide.svg" width="24"> FeatherSlide 🟡
 
