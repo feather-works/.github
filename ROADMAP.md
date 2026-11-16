@@ -38,7 +38,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [ ] Usability across the editor. [#1](https://github.com/feather-works/featherdocs/issues/1)
 - [ ] A better menu. [#2](https://github.com/feather-works/featherdocs/issues/2)
 - [ ] Better LaTeX editing. [#3](https://github.com/feather-works/featherdocs/issues/3)
-- [ ] Better document (`.docx`) support. [#4](https://github.com/feather-works/featherdocs/issues/4)
+- [ ] Better document (`.docx`) support. [#4](https://github.com/feather-works/featherdocs/issues/4) (a file saved by LibreOffice now comes back the same: headings without stray numbers, header distance, note text style; still to check with a file saved by Word)
 - [x] Filling in forms. [#5](https://github.com/feather-works/featherdocs/issues/5)
 - [ ] Better MCP integration. [#6](https://github.com/feather-works/featherdocs/issues/6)
 - [ ] Better charts and tables, and open them in FeatherSheet to edit. [#7](https://github.com/feather-works/featherdocs/issues/7)
