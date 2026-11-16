@@ -82,7 +82,7 @@ Still very raw.
 ## <img src="profile/imagens/featherpdf.svg" width="24"> FeatherPDF 🟡
 
 - [ ] Usability. [#1](https://github.com/feather-works/featherpdf/issues/1)
-- [ ] Use less RAM (find a better way to load and keep pages; reading from the mapped file released in v0.1.6; measured on 16/11 and closing a PDF now gives back the image cache, 232 → 28 MB; what is left while open is in hayro-syntax and lopdf). [#2](https://github.com/feather-works/featherpdf/issues/2)
+- [ ] Use less RAM (find a better way to load and keep pages; reading from the mapped file released in v0.1.6; measured on 16/11 and closing a PDF now gives back the image cache, 232 → 28 MB, released in v0.1.9; what is left while open is in hayro-syntax and lopdf). [#2](https://github.com/feather-works/featherpdf/issues/2)
 - [ ] Other ways to make common tasks faster. [#3](https://github.com/feather-works/featherpdf/issues/3)
 - [x] No internet access, copy/paste pages, logical page numbers, edit bookmarks and links, field rules, paper size when printing, attach a file, rotate an image, zoom to area (released in v0.1.7).
 - [x] Hardened against malicious PDFs (decompression caps, field formulas) and safer redaction (11/11/2026).
@@ -91,7 +91,7 @@ Still very raw.
 - [x] From the audit: "Split by size" makes one copy per measure and few measures per part (measuring without saving left out: it would misjudge compression). The public IP lookup in signatures stays, by decision.
 - [x] New start page ("continue where you left off", tool tiles, recent files with a page-1 thumbnail), warm graphite dark theme, thinner icons and a confirmation with Open file / Open folder after exporting or saving (released in v0.1.8).
 - [x] Presentation mode (F5): full screen, one page at a time on black, arrows/space to move, Esc to leave (released in v0.1.8).
-- [x] Date format in form fields (typed dates read and rewritten in the field's AFDate format, impossible dates refused) and rotate the view (Ctrl+Shift+= / Ctrl+Shift+-, screen only), on main for the next release.
+- [x] Date format in form fields (typed dates read and rewritten in the field's AFDate format, impossible dates refused) and rotate the view (Ctrl+Shift+= / Ctrl+Shift+-, screen only), released in v0.1.9.
 - [ ] Move heavy work off the window thread.
 
 ## <img src="profile/imagens/featherdb.svg" width="24"> FeatherDB 🔴
