@@ -114,6 +114,17 @@ the grid, query history, format SQL, EXPLAIN, reconnect on a dropped connection.
 - [ ] Bring the FeatherDB brand into `feather-ui` (`marca::Produto`); today the app recolors the feather itself.
 - [ ] First release (packages for Linux and Windows).
 
+## <img src="profile/imagens/feathercad.svg" width="24"> FeatherCAD 🔴
+
+2D technical drawing (`.fcdz`, `.dxf`, PDF) with an MCP server that lets an assistant draw.
+Left the FeatherOffice repository on 2026-11-16 and now lives in
+[feather-works/feathercad](https://github.com/feather-works/feathercad). Still a Tauri window; comes after the office apps.
+
+- [ ] Phase 2: read every DXF entity without losing data (DWG later).
+- [ ] Phase 3: paper space (layouts and viewports).
+- [ ] Native window with `pelicano`/`feather-ui`, like the other apps (today Tauri + TypeScript).
+- [ ] First release.
+
 ## Shared libraries
 
 ### [pelicano](https://github.com/feather-works/pelicano) (UI toolkit)
