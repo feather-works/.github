@@ -42,7 +42,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [x] Filling in forms. [#5](https://github.com/feather-works/featherdocs/issues/5)
 - [ ] Better MCP integration. [#6](https://github.com/feather-works/featherdocs/issues/6)
 - [ ] Better charts and tables, and open them in FeatherSheet to edit. [#7](https://github.com/feather-works/featherdocs/issues/7)
-- [ ] Complete the en-US and es-ES translations (interface and F1 help). [#8](https://github.com/feather-works/featherdocs/issues/8)
+- [x] Complete the en-US and es-ES translations (interface and F1 help). [#8](https://github.com/feather-works/featherdocs/issues/8)
 - [x] Sort paragraphs A to Z, long sentences flagged in Review, reading and speaking time, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.1.10).
 - [ ] Go to page (Ctrl+G), synonyms in English and Spanish, saved snippets (autotext), character goal.
 - [ ] Exported Markdown does not escape `_`, `1.`, `#` or `>` at the start of a paragraph ("1. Introduction" comes back as a list).
