@@ -49,8 +49,9 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 
 ## <img src="profile/imagens/featherslide.svg" width="24"> FeatherSlide 🟡
 
-- [ ] Fix layout drift: elements move slightly when an existing presentation
-      is opened. [#1](https://github.com/feather-works/featherslide/issues/1)
+- [x] Fix layout drift: elements move slightly when an existing presentation
+      is opened (embedded fonts, such as Barlow Condensed, are now measured and drawn with
+      their own widths; in `main`, goes out in the next release). [#1](https://github.com/feather-works/featherslide/issues/1)
 - [ ] Usability across the editor. [#2](https://github.com/feather-works/featherslide/issues/2)
 - [ ] Usability of the MCP integration. [#3](https://github.com/feather-works/featherslide/issues/3)
 - [ ] More templates. [#4](https://github.com/feather-works/featherslide/issues/4)
@@ -90,7 +91,8 @@ Still very raw.
 - [x] From the audit: "Split by size" makes one copy per measure and few measures per part (measuring without saving left out: it would misjudge compression). The public IP lookup in signatures stays, by decision.
 - [x] New start page ("continue where you left off", tool tiles, recent files with a page-1 thumbnail), warm graphite dark theme, thinner icons and a confirmation with Open file / Open folder after exporting or saving (released in v0.1.8).
 - [x] Presentation mode (F5): full screen, one page at a time on black, arrows/space to move, Esc to leave (released in v0.1.8).
-- [ ] Date format in fields, rotate the view, move heavy work off the window thread.
+- [x] Date format in form fields (typed dates read and rewritten in the field's AFDate format, impossible dates refused) and rotate the view (Ctrl+Shift+= / Ctrl+Shift+-, screen only), on main for the next release.
+- [ ] Move heavy work off the window thread.
 
 ## <img src="profile/imagens/featherdb.svg" width="24"> FeatherDB 🔴
 
