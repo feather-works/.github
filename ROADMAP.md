@@ -123,7 +123,8 @@ Left the FeatherOffice repository on 2026-11-16 and now lives in
 - [ ] Phase 2: read every DXF entity without losing data (DWG later).
 - [ ] Phase 3: paper space (layouts and viewports).
 - [ ] Native window with `pelicano`/`feather-ui`, like the other apps (today Tauri + TypeScript).
-- [ ] First release.
+- [x] First release: 0.1.0 alpha on 2026-11-16 (`.deb` and Windows installer).
+- [ ] Run the Windows installer on a real Windows machine (it was cross-built on Linux).
 
 ## Shared libraries
 
