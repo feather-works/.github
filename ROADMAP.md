@@ -97,6 +97,7 @@ Still very raw.
 - [x] Presentation mode (F5): full screen, one page at a time on black, arrows/space to move, Esc to leave (released in v0.1.8).
 - [x] Date format in form fields (typed dates read and rewritten in the field's AFDate format, impossible dates refused) and rotate the view (Ctrl+Shift+= / Ctrl+Shift+-, screen only), released in v0.1.9.
 - [x] Text (`.txt`) becomes an A4 PDF, auto-scroll (Ctrl+Shift+H), converted files keep their name, and a printable comments summary PDF (19/11/2026, for v0.1.10).
+- [x] Sanitize ▸ Attachments also removes embedded video, sound, 3D and RichMedia (19/11/2026, for v0.1.10).
 - [x] Redaction's "also remove metadata" now strips page and image XMP and photo EXIF (camera, GPS), same as Sanitize (19/11/2026, for v0.1.10).
 - [x] Move heavy work off the window thread (19/11/2026: Ctrl+F, redaction, password, attach, copy/cut pages and Send to FeatherDocs run in the background; a background edit is dropped if the document changed meanwhile. "Save before closing" stays on the window thread on purpose: the tab closes right after).
 
