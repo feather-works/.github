@@ -33,6 +33,7 @@ The most complete app. Formulas are in good shape.
 - [x] Click a sum, average or count in the status bar to copy it (19/11/2026, for v0.3.4).
 - [x] Alt text on images (Format image panel, or right-click ▸ Alt text… on imported ones), saved to and read from `.xlsx` (19/11/2026, for v0.3.4).
 - [x] Fill handle like Excel: thin-cross pointer over the handle; dragging it from an empty cell clears the cells it covers (19/11/2026, for v0.3.4).
+- [x] Normal distribution functions exact to Excel (a rough erf was off from the 7th digit) and NORM.S.DIST reopens correctly from `.xlsx`; found by checking the gold sample with GridCraft (19/11/2026, for v0.3.4).
 - [x] Inspect document (19/11/2026, for v0.3.4): ☰ Menu ▸ Info lists comments, personal data, hidden sheets/rows/columns, header and footer text, hidden shapes, names, links to other files and macros before sharing; removes comments and personal data (saved as `removePersonalInformation` in `.xlsx`).
 - [x] Iterative calculation, Excel-like thousands separator on typing/paste/CSV, engine messages and error codes in the app language, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.3.2). [#163](https://github.com/feather-works/feathersheet/issues/163)
 
