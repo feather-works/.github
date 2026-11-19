@@ -32,7 +32,7 @@ The most complete app. Formulas are in good shape.
 - [x] Excel fidelity in `.xlsx` (19/11/2026, for v0.3.4): shrink to fit, vertical text, superscript/subscript, Center Across Selection, tab color and Show zeros now open and save; gradient/diagonal/hatch fills, rich text, unsupported validation and conditional formats, sheet autofilter and threaded comments are warned before Ctrl+S drops them. Paste special gained Paste link, Comments and Validation.
 - [x] Click a sum, average or count in the status bar to copy it (19/11/2026, for v0.3.4).
 - [x] Alt text on images (right-click ▸ Alt text…), saved to and read from `.xlsx` (19/11/2026, for v0.3.4).
-- [x] Inspect document (19/11/2026, for v0.3.4): ☰ Menu ▸ Info lists comments, personal data, hidden sheets/rows/columns, names, links to other files and macros before sharing; removes comments and personal data (saved as `removePersonalInformation` in `.xlsx`).
+- [x] Inspect document (19/11/2026, for v0.3.4): ☰ Menu ▸ Info lists comments, personal data, hidden sheets/rows/columns, header and footer text, names, links to other files and macros before sharing; removes comments and personal data (saved as `removePersonalInformation` in `.xlsx`).
 - [x] Iterative calculation, Excel-like thousands separator on typing/paste/CSV, engine messages and error codes in the app language, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.3.2). [#163](https://github.com/feather-works/feathersheet/issues/163)
 
 Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathersheet/blob/main/ROADMAP.md).
