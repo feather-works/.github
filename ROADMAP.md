@@ -93,7 +93,7 @@ Still very raw.
 - [x] New start page ("continue where you left off", tool tiles, recent files with a page-1 thumbnail), warm graphite dark theme, thinner icons and a confirmation with Open file / Open folder after exporting or saving (released in v0.1.8).
 - [x] Presentation mode (F5): full screen, one page at a time on black, arrows/space to move, Esc to leave (released in v0.1.8).
 - [x] Date format in form fields (typed dates read and rewritten in the field's AFDate format, impossible dates refused) and rotate the view (Ctrl+Shift+= / Ctrl+Shift+-, screen only), released in v0.1.9.
-- [ ] Move heavy work off the window thread.
+- [ ] Move heavy work off the window thread (done on 19/11/2026: Ctrl+F, redaction, password, attach, copy/cut pages and Send to FeatherDocs run in the background; a background edit is dropped if the document changed meanwhile. Left: "save before closing" and the object cache that only grows on huge documents).
 
 ## <img src="profile/imagens/featherdb.svg" width="24"> FeatherDB 🔴
 
