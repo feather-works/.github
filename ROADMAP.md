@@ -36,6 +36,7 @@ The most complete app. Formulas are in good shape.
 - [x] Normal distribution functions exact to Excel (a rough erf was off from the 7th digit) and NORM.S.DIST reopens correctly from `.xlsx`; found by checking the gold sample with GridCraft (19/11/2026, for v0.3.4).
 - [x] Saved `.xlsx` about 40% smaller (zip level 4; a million rows: 71 → 44 MB). Benchmarked against GridCraft: open+calc 1M rows 1.8 s vs 21 s, 50k lookups 1.1 s vs 98 s (19/11/2026, for v0.3.4).
 - [x] Sorting a million rows with formatted cells: moving the rows went from 27 s to 0.3 s (styles were re-inserted cell by cell); found benchmarking against GridCraft (19/11/2026, for v0.3.4).
+- [x] Sheets named like a cell (`S1`, `ABA1`) referenced without quotes now calculate instead of #NAME? (found benchmarking against GridCraft; 100 sheets: 0.45 s vs 8.2 s) (19/11/2026, for v0.3.4).
 - [x] Inspect document (19/11/2026, for v0.3.4): ☰ Menu ▸ Info lists comments, personal data, hidden sheets/rows/columns, header and footer text, hidden shapes, names, links to other files and macros before sharing; removes comments and personal data (saved as `removePersonalInformation` in `.xlsx`).
 - [x] Iterative calculation, Excel-like thousands separator on typing/paste/CSV, engine messages and error codes in the app language, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.3.2). [#163](https://github.com/feather-works/feathersheet/issues/163)
 
