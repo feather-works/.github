@@ -127,6 +127,7 @@ the grid, query history, format SQL, EXPLAIN, reconnect on a dropped connection.
 - [ ] Test the SSH tunnel against a real server (only the error path is tested).
 - [ ] Native SQL Server without C: `tiberius` pulls `aws-lc` (C, cmake) through `tokio-rustls`; today SQL Server goes through ODBC.
 - [ ] Bring the FeatherDB brand into `feather-ui` (`marca::Produto`); today the app recolors the feather itself.
+- [x] Listed in the FeatherWorks Launcher (22/11/2026); shows as unavailable until the first release.
 - [ ] First release (packages for Linux and Windows).
 
 ## <img src="profile/imagens/feathercad.svg" width="24"> FeatherCAD 🔴
