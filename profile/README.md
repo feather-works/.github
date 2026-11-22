@@ -22,7 +22,7 @@ The **FeatherWorks Launcher** installs, updates and opens every app in the suite
 
 <p align="center">
   <a href="https://github.com/feather-works/featherlauncher">
-    <img src="imagens/launcher.png" width="820" alt="FeatherWorks Launcher with FeatherSheet, FeatherSlide and FeatherCode installed">
+    <img src="imagens/launcher.png" width="820" alt="FeatherWorks Launcher with the suite apps">
   </a>
 </p>
 
@@ -36,7 +36,7 @@ No account, no login, no telemetry. Everything runs on your machine and none of 
 
 | | App | What for | Status | Standalone install |
 |---|---|---|---|---|
-| <img src="imagens/feathersheet.svg" width="56"> | [**FeatherSheet**](https://github.com/feather-works/feathersheet) | Spreadsheets: formulas in Portuguese and English, millions of rows, charts, pivot tables, OpenQuery, `.xlsx` and Excel VBA macros converted to JavaScript (116 of the 117 applicable VBA functions, Collection and Dictionary); 4 million rows open in about 1 GB | v0.3.4 | [Linux, Windows and macOS](https://github.com/feather-works/feathersheet/releases/latest) |
+| <img src="imagens/feathersheet.svg" width="56"> | [**FeatherSheet**](https://github.com/feather-works/feathersheet) | Spreadsheets: formulas in Portuguese and English, millions of rows, charts, pivot tables, FeatherQuery, `.xlsx` and Excel VBA macros converted to JavaScript (116 of the 117 applicable VBA functions, Collection and Dictionary); 4 million rows open in about 1 GB | v0.3.4 | [Linux, Windows and macOS](https://github.com/feather-works/feathersheet/releases/latest) |
 | <img src="imagens/featherslide.svg" width="56"> | [**FeatherSlide**](https://github.com/feather-works/featherslide) | Presentations: opens `.pptx` and `.odp`, exports PDF | v0.2.2 | [Linux and Windows](https://github.com/feather-works/featherslide/releases/latest) |
 | <img src="imagens/feathercode.svg" width="56"> | [**FeatherCode**](https://github.com/feather-works/feathercode) | Code editor with Claude Code in the side panel | v0.0.8 | [Linux and Windows](https://github.com/feather-works/feathercode/releases/latest) |
 | <img src="imagens/feathernotes.svg" width="56"> | [**FeatherNotes**](https://github.com/feather-works/feathernotes) | Notepad and desktop sticky notes: tabs that come back, Markdown, 30+ encodings | v0.1.17 | [Linux and Windows](https://github.com/feather-works/feathernotes/releases/latest) |
@@ -108,7 +108,7 @@ planilha.fshz
     │   ├── version, active sheet, defined names, styles, string table
     │   └── one entry per sheet:
     │       name, tab color, hidden, column widths and row heights,
-    │       charts, tables, pivot tables, OpenQuery, validation,
+    │       charts, tables, pivot tables, FeatherQuery, validation,
     │       merges, images, shapes, ink, buttons, comments,
     │       conditional formatting, cell/row/column styles,
     │       formulas (one pattern per column), loose cells
