@@ -41,6 +41,7 @@ The most complete app. Formulas are in good shape.
 - [x] Charts from separate columns keep the range as A1:A3;C1:C3, and unnamed series are Series1, Series2… like Excel/LibreOffice (19/11/2026, for v0.3.4).
 - [x] Inspect document (19/11/2026, for v0.3.4): ☰ Menu ▸ Info lists comments, personal data, hidden sheets/rows/columns, header and footer text, hidden shapes, names, links to other files and macros before sharing; removes comments and personal data (saved as `removePersonalInformation` in `.xlsx`).
 - [x] View ▸ Limited grid (also chosen in Getting started): the grid ends at A–K × 20 or the data, with + buttons to add a column or row, like Quip and TableEdit (23/11/2026, for v0.3.5). [#164](https://github.com/feather-works/feathersheet/issues/164)
+- [x] Right-click a row number ▸ Insert rows… (or a column letter ▸ Insert columns…): a box asks how many and where, in one undo step (23/11/2026, for v0.3.5, idea from #164).
 - [x] Iterative calculation, Excel-like thousands separator on typing/paste/CSV, engine messages and error codes in the app language, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.3.2). [#163](https://github.com/feather-works/feathersheet/issues/163)
 
 Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathersheet/blob/main/ROADMAP.md).
