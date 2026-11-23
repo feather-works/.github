@@ -71,7 +71,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [ ] More animations (slide transitions now open from and save to `.pptx`, 23/11/2026, for the next version). [#5](https://github.com/feather-works/featherslide/issues/5)
 - [x] Go to a slide by number while presenting, footer "Start at", `.odp` inner margin, and the fix for `.fsdz` files that stopped opening after Replace or Outline (released in v0.2.1).
 - [x] Spanish (and English) interface: menus, ribbon, messages and F1 help, chosen in Settings or from the system language (on main for the next release).
-- [ ] Slide grid while presenting (laser pointer on the L key, pen on Ctrl+P and local date on Windows and macOS done on 23/11/2026 for the next version).
+- [x] Laser pointer (L), pen (Ctrl+P) and slide grid (G) while presenting, and local date on Windows and macOS (23/11/2026, for the next version).
 
 ## <img src="profile/imagens/feathernotes.svg" width="24"> FeatherNotes ✅
 
