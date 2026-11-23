@@ -57,7 +57,7 @@ Detailed plan: [feathersheet/ROADMAP.md](https://github.com/feather-works/feathe
 - [x] Complete the en-US and es-ES translations (interface and F1 help). [#8](https://github.com/feather-works/featherdocs/issues/8) (released in v0.1.11)
 - [x] Sort paragraphs A to Z, long sentences flagged in Review, reading and speaking time, and startup on graphics cards without usable Vulkan/OpenGL (released in v0.1.10).
 - [x] Go to page (Ctrl+G, Edit → Go to page, Review → Go to) and exported Markdown escapes a paragraph that starts like a heading, quote or list ("1. Introduction" comes back as a paragraph), on main for the next release.
-- [ ] Synonyms in English and Spanish, saved snippets (autotext), character goal.
+- [ ] Synonyms in English and Spanish, saved snippets (autotext). Character goal (with spaces, beside the word goal) done on 23/11/2026 for the next version.
 
 ## <img src="profile/imagens/featherslide.svg" width="24"> FeatherSlide 🟡
 
