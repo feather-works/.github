@@ -97,6 +97,7 @@ Still very raw.
 - [ ] Usability. [#1](https://github.com/feather-works/featherpdf/issues/1)
 - [ ] Use less RAM (find a better way to load and keep pages; reading from the mapped file released in v0.1.6; measured on 16/11 and closing a PDF now gives back the image cache, 232 → 28 MB, released in v0.1.9; what is left while open is in hayro-syntax and lopdf). [#2](https://github.com/feather-works/featherpdf/issues/2)
 - [ ] Other ways to make common tasks faster. [#3](https://github.com/feather-works/featherpdf/issues/3)
+- [x] Autosave recovery: unsaved documents get a backup copy every minute and come back after a crash as "name (recovered).pdf" (23/11/2026, for v0.1.10).
 - [x] No internet access, copy/paste pages, logical page numbers, edit bookmarks and links, field rules, paper size when printing, attach a file, rotate an image, zoom to area (released in v0.1.7).
 - [x] Hardened against malicious PDFs (decompression caps, field formulas) and safer redaction (11/11/2026).
 - [x] Dark page: logos on a white background and scanned pages now darken too; thin ribbon scrollbar in the dark theme (released in v0.1.8).
