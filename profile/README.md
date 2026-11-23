@@ -4,6 +4,8 @@
 
 <h1 align="center">FeatherWorks</h1>
 
+<p align="center"><a href="https://discord.gg/b4Epb4eSSH"><img src="https://img.shields.io/badge/Discord-Maragon.Dev-5865F2?logo=discord&logoColor=white" alt="Discord"></a></p>
+
 <p align="center">
   A family of lightweight, native and private office apps, 100% Rust, on our own UI toolkit (<a href="https://github.com/feather-works/pelicano">pelicano</a>).
 </p>
